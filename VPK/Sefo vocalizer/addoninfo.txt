@@ -1,0 +1,14 @@
+"AddonInfo"
+{
+	addonSteamAppID			550
+	addontitle				"Sefo vocalizer"
+	addonversion			1.0.0
+	addontagline			"Embraced by Light."
+	addonauthor				"Sefo"
+	addonSteamGroupName		"Left4Legend"
+	addonauthorSteamID 		"Notasi"
+	addonURL0				"https://Sefo.su"
+	addonDescription		"Sefo vocalizer."
+	addonDescription_RU		"Вокалайзер Сефо."
+	addonContent_Script		1
+}

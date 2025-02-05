@@ -1,0 +1,433 @@
+"RadialMenu"
+{
+	//--------------------------------------------------------------
+	"Orders,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize smartlook"
+			"text"		"#L4D_rosetta_look"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerMoveOn"
+			"text"		"#L4D_rosetta_letsgo"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerLeadOn"
+			"text"		"#L4D_rosetta_youtakelead"
+		}	
+		"East"
+		{
+			"command"	"vocalize PlayerHurryUp"
+			"text"		"#L4D_rosetta_hurry"
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNiceJob"
+			"text"		"#L4D_rosetta_nicejob"
+		}	
+		"South"
+		{
+			"command"	"vocalize PlayerWaitHere"
+			"text"		"#L4D_rosetta_waithere"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerToTheRescue"
+			"text"		"#L4D_rosetta_totherescue"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerWarnCareful"
+			"text"		"#L4D_rosetta_becareful"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerImWithYou"
+			"text"		"#L4D_rosetta_withyou"
+		}	
+	}
+	//--------------------------------------------------------------
+	"QA,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerAskReady"
+			"text"		"#L4D_rosetta_ready"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerLaugh"
+			"text"		"#L4D_rosetta_laugh"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerTaunt"
+			"text"		"#L4D_rosetta_taunt"
+		}
+
+		"East"
+		{
+			"command"	"vocalize PlayerNegative"
+			"text"		"#L4D_rosetta_negative"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNo"
+			"text"		"#L4D_rosetta_no"
+		}
+		"South"
+		{
+			"command"	"vocalize PlayerSorry"
+			"text"		"#L4D_rosetta_sorry"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerYes"
+			"text"		"#L4D_rosetta_yes"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerHurrah"
+			"text"		"#L4D_rosetta_hurrah"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerThanks"
+			"text"		"#L4D_rosetta_thankyou"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Orders,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"label"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"QA,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Alerts,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Primary,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerAskReady"
+			"text"		"Ready?"
+		}
+		"North" // Top
+		{
+			"command"	"vocalize PlayerMoveOn"
+			"text"		"Go"
+		}
+		"NorthEast" // Top right
+		{
+			"command"	"vocalize PlayerHelp"
+			"text"		"Help"
+		}	
+		"East" // Right
+		{
+			"command"	"vocalize PlayerYes"
+			"text"		"Yes"
+		}	
+		"SouthEast" // Bottom right
+		{
+			"command"	"vocalize PlayerThanks"
+			"text"		"Thanks"
+		}	
+		"South" // Bottom
+		{
+			"command"	"vocalize PlayerWaitHere"
+			"text"		"Wait"
+		}
+		"SouthWest" // Bottom left
+		{
+			"command"	"vocalize PlayerSorry"
+			"text"		"Sorry"
+		}
+		"West" // Left
+		{
+			"command"	"vocalize PlayerNo"
+			"text"		"No"
+		}
+		"NorthWest" // Top left
+		{
+			"command"	"vocalize PlayerFollowMe"
+			"text"		"Follow me"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Secondary,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize smartlook"
+			"text"		"See"
+		}
+		"North" // Top
+		{
+			"command"	"vocalize PlayerIncoming; say_team Horde!; radialmenu none"
+			"text"		"Horde"
+		}
+		"NorthEast" // Top right
+		{
+			"command"	"vocalize PlayerWarnTank; say_team Tank!; radialmenu none"
+			"text"		"Tank"
+		}	
+		"East" // Right
+		{
+			"command"	"vocalize PlayerNiceJob"
+			"text"		"WP"
+		}	
+		"SouthEast" // Bottom right
+		{
+			"command"	"vocalize PlayerAlertGiveItem"
+			"text"		"Give"
+		}
+		"South" // Bottom
+		{
+			"command"	"vocalize PlayerWatchOutBehind"
+			"text"		"Behind"
+		}
+		"SouthWest" // Bottom left
+		{
+			"command"	"vocalize WorldC6M2_FinalWater01a"
+			"text"		"N+E"
+		}
+		"West" // Left
+		{
+			"command"	"vocalize PlayerYouAreWelcome"
+			"text"		"NP"
+		}
+		"NorthWest" // Top left
+		{
+			"command"	"vocalize PlayerKillThatLight; say_team Witch, lights out!; radialmenu none"
+			"text"		"Witch"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Server"
+	{
+		"Center"
+		{
+			"command"	"sm_drop; autoMode; radialmenu none"
+			"text"		"Drop"
+		}
+		"North" // Top
+		{
+			"command"	"sm_restarts"
+			"text"		"Restarts"
+		}
+		"NorthEast" // Top right
+		{
+			"command"	"sm_guide"
+			"text"		"Guide"
+		}	
+		"East" // Right
+		{
+			"command"	"sm_maps"
+			"text"		"Maps"
+		}	
+		"SouthEast" // Bottom right
+		{
+			"command"	"sm_join; radialmenu none"
+			"text"		"Join"
+		}	
+		"South" // Bottom
+		{
+			"command"	"sm_afk; radialmenu none"
+			"text"		"AFK"
+		}
+		"SouthWest" // Bottom left
+		{
+			"command"	"sm_spec; radialmenu none"
+			"text"		"Spec"
+		}
+		"West" // Left
+		{
+			"command"	"sm_modes"
+			"text"		"Modes"
+		}
+		"NorthWest" // Top left
+		{
+			"command"	"dsp_player 0; giftSound"
+			"text"		"Fix sound"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Admin"
+	{
+		"Center"
+		{
+			"command"	"sm_admin"
+			"text"		"Admin"
+		}
+		"North" // Top
+		{
+			"command"	"motd; radialmenu none"
+			"text"		"MotD"
+		}
+		"NorthEast" // Top right
+		{
+			"command"	"sm_commands"
+			"text"		"Commands"
+		}	
+		"East" // Right
+		{
+			"command"	"sm_ban; radialmenu none"
+			"text"		"Ban"
+		}	
+		"SouthEast" // Bottom right
+		{
+			"command"	"sm_donate"
+			"text"		"Donate"
+		}	
+		"South" // Bottom
+		{
+			"command"	""
+			"text"		""
+		}
+		"SouthWest" // Bottom left
+		{
+			"command"	"sm_time"
+			"text"		"Time"
+		}
+		"West" // Left
+		{
+			"command"	"say_team !kick; radialmenu none"
+			"text"		"Kick"
+		}
+		"NorthWest" // Top left
+		{
+			"command"	"sm_server"
+			"text"		"Server"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Player"
+	{
+		"Center"
+		{
+			"command"	"toggleFiringMode"
+			"text"		"Firing mode"
+		}
+		"North" // Top
+		{
+			"command"	"thirdpersonshoulder"
+			"text"		"TPV"
+		}
+		"NorthEast" // Top right
+		{
+			"command"	"switchCrosshairColor"
+			"text"		"Crosshair color"
+		}	
+		"East" // Right
+		{
+			"command"	"toggleFov"
+			"text"		"FoV"
+		}	
+		"SouthEast" // Bottom right
+		{
+			"command"	"toggleGraphPos"
+			"text"		"Graph pos."
+		}	
+		"South" // Bottom
+		{
+			"command"	"toggleAntiAfk"
+			"text"		"AFK"
+		}
+		"SouthWest" // Bottom left
+		{
+			"command"	"toggleGraph"
+			"text"		"Graph"
+		}
+		"West" // Left
+		{
+			"command"	"toggleFps"
+			"text"		"FPS"
+		}
+		"NorthWest" // Top left
+		{
+			"command"	"toggleCrosshair"
+			"text"		"Crosshair"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"User"
+	{
+		"Center"
+		{
+			"command"	"say :D; radialmenu none"
+			"text"		":D"
+		}
+		"North" // Top
+		{
+			"command"	"-attack"
+			"text"		"Fix attack"
+		}
+		"NorthEast" // Top right
+		{
+			"command"	"increaseMusic"
+			"text"		"Music +"
+		}	
+		"East" // Right
+		{
+			"command"	"decreaseMusic"
+			"text"		"Music -"
+		}	
+		"SouthEast" // Bottom right
+		{
+			"command"	"toggleMusic"
+			"text"		"Music"
+		}	
+		"South" // Bottom
+		{
+			"command"	"autoExec"
+			"text"		"Default"
+		}
+		"SouthWest" // Bottom left
+		{
+			"command"	"toggleSound"
+			"text"		"Sound"
+		}
+		"West" // Left
+		{
+			"command"	"decreaseSound"
+			"text"		"Sound -"
+		}
+		"NorthWest" // Top left
+		{
+			"command"	"increaseSound"
+			"text"		"Sound +"
+		}
+	}
+
+}

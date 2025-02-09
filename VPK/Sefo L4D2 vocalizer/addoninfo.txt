@@ -2,7 +2,7 @@
 {
 	addonSteamAppID			550
 	addontitle				"Sefo L4D2 vocalizer"
-	addonversion			1.0.1
+	addonversion			1.0.2
 	addontagline			"Embraced by Light."
 	addonauthor				"Sefo"
 	addonSteamGroupName		"Left4Legend"
